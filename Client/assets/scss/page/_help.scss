@@ -1,0 +1,52 @@
+.help-sidebar {
+  width: 300px;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-left: -600px;
+  padding-right: 20px;
+}
+
+.help-sidebar--item {
+  font-size: 18px;
+  display: flex;
+
+  a {
+    color: #6b7386;
+  }
+
+  svg path {
+    fill: #6b7386;
+  }
+
+  &.active,
+  &:hover {
+    a {
+      color: $primary;
+      font-weight: 900;
+    }
+
+    svg path {
+      fill: $primary;
+    }
+  }
+}
+
+.k-help-menu {
+  position: fixed;
+  bottom: 100px;
+  border-radius: 999px;
+  padding: 10px;
+  right: 30px;
+  transition: right 0.5s;
+  z-index: 999;
+}
+
+@media only screen and (min-width: 1080px) {
+  .help-sidebar {
+    margin-left: 0;
+  }
+
+  .k-help-menu {
+    right: -100px;
+  }
+}

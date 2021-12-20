@@ -1,0 +1,12 @@
+pipelines:
+  branches:
+    master:
+        - step:
+            name: API
+            deployment: production
+            script:
+              - pipe: atlassian/ssh-run:0.3.1
+                variables:
+                  SSH_USER: 'ubuntu'
+                  SERVER: '52.59.248.253'
+                  COMMAND: '/home/ubuntu/_api.sh'

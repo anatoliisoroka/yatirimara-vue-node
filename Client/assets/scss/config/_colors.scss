@@ -1,0 +1,16 @@
+$purple: #583FB5 !default;
+$yellow: #F8D349 !default;
+$green: #1CCB00 !default;
+$gray: #6B7386 !default;
+$gray-2a: #F4F5FA !default;
+$primary: $purple;
+$gray-100: #F4F5FA !default;
+$info: #1BA5D4 !default;
+
+$theme-colors: (
+    'primary':      $primary,   
+    'warning':      $yellow,   
+    'success':      $green,   
+    'secondary':    $gray,   
+    'white':    #fff,   
+);

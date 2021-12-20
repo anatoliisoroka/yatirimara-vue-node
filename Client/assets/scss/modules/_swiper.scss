@@ -1,0 +1,26 @@
+.swiper-pagination-bullet {
+   width: 10px !important;
+   height: 10px !important;
+}
+.k-custom .swiper-pagination-bullet {
+   &-active {
+      background: $primary !important;
+      width: 20px !important;
+      border-radius: 200px !important;
+   }
+}
+.k-warning .swiper-pagination-bullet {
+   &-active {
+      background: $yellow !important;
+   }
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+   bottom: -6px !important;
+}
+
+.swiper-container {
+   padding-bottom: 30px !important;
+}

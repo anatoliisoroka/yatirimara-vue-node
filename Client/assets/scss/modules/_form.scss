@@ -1,0 +1,57 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.h-500 {
+  .dropdown-menu {
+    max-height: 500px !important;
+    overflow-y: auto !important;
+  }
+}
+
+.k-label-rounded {
+  .custom-checkbox .custom-control-label::before {
+    border-radius: 40px;
+  }
+}
+
+.k-upload {
+  height: 100% !important;
+  .custom-file-input {
+    height: 100% !important;
+  }
+  .custom-file-label::after {
+    display: none !important;
+  }
+  .custom-file-label {
+    height: 100% !important;
+    padding: 0 !important;
+    border: none;
+  }
+  .form-file-text {
+    height: 100% !important;
+  }
+}
+.k-custom {
+  .custom-checkbox.b-custom-control-lg,
+  .input-group-lg .custom-checkbox {
+    font-size: 16px !important;
+    margin-bottom: 8px;
+  }
+  .custom-checkbox.b-custom-control-lg .custom-control-label::before,
+  .input-group-lg .custom-checkbox .custom-control-label::before {
+    top: 0.1125rem !important;
+  }
+  .custom-checkbox.b-custom-control-lg .custom-control-label::after,
+  .input-group-lg .custom-checkbox .custom-control-label::after {
+    top: 0.1125rem !important;    
+  }
+}

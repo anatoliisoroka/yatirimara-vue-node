@@ -1,0 +1,84 @@
+@import "colors";
+
+$enable-gradients: true;
+$navbar-height: 40px;
+$home-slider-height: 450px;
+
+$container-max-widths: (
+  // sm: 540px,
+  // md: 720px,
+  // lg: 960px,
+  // xl: 1140px
+  lg: 1024px,
+  xl: 1280px,
+);
+
+// $grid-breakpoints: (
+//   // xs: 0,
+//   // sm: 576px,
+//   // md: 768px,
+//   // lg: 992px,
+//   // xl: 1200px
+// ) !default;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: ($spacer * .75),
+  4: $spacer,
+  5: ($spacer * 1.25),
+  6: ($spacer * 1.5),
+  7: ($spacer * 1.75),
+  8: ($spacer * 2),
+  9: ($spacer * 2.25),
+  10: ($spacer * 2.5),
+  14: ($spacer * 3.5),
+  16: ($spacer * 4),
+);
+
+$headings-margin-bottom: 0 !default;
+$paragraph-margin-bottom: 0 !default;
+$headings-font-family: "Montserrat Bold" !default;
+$font-weight-bold:            900 !default;
+
+$custom-checkbox-indicator-border-radius: 4px !default;
+
+$form-group-margin-bottom: 0 !default;
+
+$border-radius:               6px !default;
+$btn-border-radius-lg:        10px !default;
+$border-radius-lg:            1rem !default;
+
+$btn-padding-x:               15px !default;
+$btn-padding-y:               7.5px !default;
+$btn-font-size:               13px !default;
+$btn-line-height:             1 !default;
+$btn-white-space:             nowrap !default; // Set to `nowrap` to prevent text wrapping
+
+$btn-padding-x-lg:               25px !default;
+$btn-padding-y-lg:               16px !default;
+$btn-font-size-lg:               16px !default;
+$btn-line-height-lg:             1 !default;
+// xl
+$btn-padding-x-xl:               30px !default;
+$btn-padding-y-xl:               19px !default;
+$btn-font-size-xl:               16px !default;
+$btn-line-height-xl:             1 !default;
+$btn-border-radius-xl:        15px !default;
+
+$grid-gutter-width: 2rem !default;
+
+$input-btn-focus-box-shadow: none !default;
+$btn-box-shadow: none !default;
+
+$btn-white-space: nowrap !default;
+$custom-control-indicator-active-box-shadow: none !default;
+
+// $custom-control-indicator-checked-bg: $yellow !default;
+
+$input-font-size-lg: 16px !default;
+
+$link-color : #000000;
+

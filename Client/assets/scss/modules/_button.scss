@@ -1,0 +1,40 @@
+.btn-xl {
+   @include button-size(
+      $btn-padding-y-xl,
+      $btn-padding-x-xl,
+      $btn-font-size-xl,
+      $btn-line-height-xl,
+      $btn-border-radius-xl
+   );
+   height: 70px;
+   border-radius: 26px;
+}
+
+.dropdown-toggle--after-no {
+   .dropdown-toggle:after {
+      content: none !important;
+   }
+   .btn.dropdown-toggle {
+      padding: 0.7rem 12px !important;
+   }
+}
+.btn-shadow {
+   box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.25);
+}
+.btn-lg {
+   height: 60px;
+   border-radius: 20px;
+}
+.k-checked-icon {
+   width: 32px;
+   height: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 999px;
+}
+.k-checked-icon-20 {
+   @extend .k-checked-icon;
+   width: 20px;
+   height: 20px;   
+}

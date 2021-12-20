@@ -1,0 +1,53 @@
+{
+  "name": "invest-graphql",
+  "version": "1.0.0",
+  "description": "apollo-graphql,cozumkupu,main-service",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "node src/unit_test/index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "invest",
+    "mainservice",
+    "federation"
+  ],
+  "author": "busihelper",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "@apollo/federation": "^0.20.7",
+    "@mongoosejs/double": "^0.2.0",
+    "apollo-server": "^2.14.3",
+    "apollo-server-express": "^2.15.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.0",
+    "fs-capacitor": "^6.2.0",
+    "googleapis": "^84.0.0",
+    "graphql": "^15.3.0",
+    "graphql-resolvers": "^0.4.2",
+    "graphql-upload": "^12.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "merge-graphql-schemas": "^1.7.8",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.3",
+    "mongoose-long": "^0.4.1",
+    "node-cache": "^5.1.2",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,24 @@
+//variables
+@import 'config/variables';
+
+// //bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
+@import "~toastr/toastr.scss";
+
+// //modules
+@import 'modules/base';
+@import 'modules/button';
+@import 'modules/text';
+@import 'modules/swiper';
+@import 'modules/toastr';
+@import 'modules/form';
+@import 'modules/pagination';
+
+// //pages
+@import 'page/header';
+@import 'page/footer';
+@import 'page/help';
+@import 'page/profile';
+@import 'page/tab';
+@import 'page/card';

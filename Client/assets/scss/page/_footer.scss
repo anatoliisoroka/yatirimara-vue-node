@@ -1,0 +1,27 @@
+.k-footer-top{
+   height: 40px;
+   width: 100%;
+   clip-path: ellipse(52% 38px at 50% 0);
+   background-color: $gray-2a;
+   transition: 0.5s;
+}
+footer{
+   .ku-link-group{
+      a{
+         margin-bottom: 15px;
+         display: block;
+      }
+   }
+   .ku-btn-social{
+      width: 40px;
+      height: 40px;    
+      cursor: pointer;  
+   }
+}
+
+@media only screen and (min-width: 640px) {
+   .k-footer-top{
+      height: 100px !important;  
+      clip-path: ellipse(52% 98px at 50% 0) !important;
+   }
+}
